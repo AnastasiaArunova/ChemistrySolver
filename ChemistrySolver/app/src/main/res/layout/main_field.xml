@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/tableelement"
+                    android:background="@drawable/background"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tableelementt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Таблица\nМенделеева" />
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/periodic_table"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/coefficients"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/coefficientst"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:text="Балансировка\nреакций" />
+
+                    <ImageView
+                        android:background="@drawable/balance"
+                        android:id="@+id/imco"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="15dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/theory"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/theoryt"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:text="Краткая\nтеория"/>
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/book"
+                        android:id="@+id/imth"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"/>
+
+                </LinearLayout>
+
+            </TableLayout>
+
+
+            <TableLayout
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/tablesolubility"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tablesolubilityt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Таблица\nрастворимости"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/imts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/solubility" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/solver"
+                    android:background="@drawable/background"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/solvert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="Решение\nзадач"
+                        android:textColor="#000"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/solve"
+                        android:id="@+id/ims"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/formulas"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/formulast"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:text="Формулы\nдля задач" />
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:background="@drawable/formula"
+                        android:id="@+id/imf"
+                        android:layout_gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="15dp"/>
+
+                </LinearLayout>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

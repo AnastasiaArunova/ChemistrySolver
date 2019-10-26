@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:viewportWidth="512"
+    android:viewportHeight="512"
+    android:width="512dp"
+    android:height="512dp">
+    <path
+        android:pathData="M254.5 501.5C254.5 501.5 256.5 230.5 256.5 230.5C256.5 230.5 471.5 122.5 471.5 122.30000305175781C471.5 122.5 476.5 390.5 476.5 390.5C476.5 390.5 254.5 501.5 254.5 501.5z"
+        android:fillColor="#4CFCE1" />
+    <path
+        android:pathData="M35.5 389.5C35.5 389.5 37.5 125.5 37.5 125.5C37.5 125.5 254.5 231.5 254.5 231.5C254.5 231.5 257.5 499.5 257.5 499.5C257.5 499.5 35.5 389.5 35.5 389.5z"
+        android:fillColor="#00C2AA" />
+    <path
+        android:pathData="M35.5 120.5C35.5 120.5 247.5 10.5 247.5 10.5C247.5 10.5 471.5 118.5 471.5 118.30000305175781C471.5 118.5 257.5 231.5 257.5 231.5C257.5 231.5 35.5 120.5 35.5 120.5z"
+        android:fillColor="#008B76" />
+    <path
+        android:pathData="M256 500.9999992370606C256 500.9999992370606 476 390.99999923706054 476 390.79999923706055C476 391.99999923706054 474 119.99999923706054 474 119.99999923706054C476 117.99999923706054 249 9.999999237060546 247 9.999999237060546C245 9.999999237060546 36 116.99999923706054 36 120.99999923706054C36 119.99999923706054 36 389.99999923706054 36 389.79999923706055C36 389.99999923706054 256 500.9999992370606 256 500.9999992370606z"
+        android:strokeColor="#000000"
+        android:strokeWidth="13" />
+    <path
+        android:pathData="M255 501.99999618530273L255 226.99999618530273"
+        android:strokeColor="#000000"
+        android:strokeWidth="13" />
+    <path
+        android:pathData="M253 231.99999923706054L476 117.99999923706054"
+        android:strokeColor="#000000"
+        android:strokeWidth="13" />
+    <path
+        android:pathData="M255 230.99999923706054L37 123.99999923706054"
+        android:strokeColor="#000000"
+        android:strokeWidth="13" />
+</vector>

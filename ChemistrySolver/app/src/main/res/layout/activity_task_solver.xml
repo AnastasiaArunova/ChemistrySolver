@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/next"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="25dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <EditText
+                    android:id="@+id/react"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/enter"
+                    android:background="@drawable/custom_edittext1"
+                    android:drawableStart="@drawable/circle_edittext_reaction"
+                    android:drawablePadding="5dp"
+                    android:hint="Введите реакцию"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingEnd="5dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#C6F2F6"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/enter"
+                    android:layout_width="72dp"
+                    android:layout_height="45dp"
+                    android:layout_alignBaseline="@+id/react"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/custom_edittext"
+                    android:gravity="center"
+                    android:shadowColor="#1FC5D6"
+                    android:text="OK"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/enteredtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/entered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/reaction_answer"
+                android:gravity="center"
+                android:lineSpacingExtra="6dp"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#38a5ed">
+
+        <TextView
+            android:id="@+id/nextt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_toStartOf="@+id/im"
+            android:background="#38a5ed"
+            android:text="Дальше"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_next" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

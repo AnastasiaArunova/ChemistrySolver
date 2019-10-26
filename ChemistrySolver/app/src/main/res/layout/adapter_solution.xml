@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/solution">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/step"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:id="@+id/step"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#d7d7d7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/paragraphtext"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:lineSpacingExtra="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#000">
+        </TextView>
+
+        <com.chemistrysolver.tasksolver.FractionView
+            android:id="@+id/paragraphfraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.chemistrysolver.tasksolver.FractionView>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/anstext"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="10dp"
+                android:textColor="#000"/>
+
+            <com.chemistrysolver.tasksolver.FractionView
+                android:id="@+id/ansfraction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </com.chemistrysolver.tasksolver.FractionView>
+
+            <TextView
+                android:id="@+id/anstext1"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#000"/>
+
+            <com.chemistrysolver.tasksolver.FractionView
+                android:id="@+id/ansfraction1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </com.chemistrysolver.tasksolver.FractionView>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/anstext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:lineSpacingExtra="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>

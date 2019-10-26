@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:hint="Введите реакцию"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColorHint="#C6F2F6"
+                android:textColor="#fff"
+                android:drawableStart="@drawable/circle_edittext_reaction"
+                android:drawablePadding="5dp"
+                android:textSize="20dp"
+                android:id="@+id/reaction"
+                android:shadowColor="#1FC5D6"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="15dp"
+                android:paddingEnd="5dp"
+                android:layout_toStartOf="@+id/reactionOK"
+                android:background="@drawable/custom_edittext1" />
+
+            <Button
+                android:id="@+id/reactionOK"
+                android:shadowColor="#1FC5D6"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="72dp"
+                android:layout_height="45dp"
+                android:layout_alignBaseline="@+id/reaction"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:text="OK" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:lineSpacingExtra="6dp"
+            android:id="@+id/startreaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/reaction_answer"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:lineSpacingExtra="6dp"
+            android:id="@+id/reactionAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/reaction_answer"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>

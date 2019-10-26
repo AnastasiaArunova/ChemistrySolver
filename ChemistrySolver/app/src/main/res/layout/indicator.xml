@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001C1B">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_marginBottom="0.5dp">
+
+                    <TextView
+                        android:id="@+id/indic"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#faf1f1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Индикаторы"/>
+
+                    <TextView
+                        android:id="@+id/acid"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#faf1f1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Кислая"/>
+
+                    <TextView
+                        android:id="@+id/neutral"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#faf1f1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Нейтральная"/>
+
+                    <TextView
+                        android:id="@+id/alkali"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#faf1f1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Щелочная"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="0.5dp">
+
+                    <TextView
+                        android:id="@+id/lakm"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#faf1f1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Лакмус"/>
+
+                    <TextView
+                        android:id="@+id/lakm1"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#fa4747"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Красный"/>
+
+                    <TextView
+                        android:id="@+id/lakm2"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#bc5aed"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Фиолетовый"/>
+
+                    <TextView
+                        android:id="@+id/lakm3"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#4b73f9"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Синий"/>
+
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="0.5dp">
+
+                    <TextView
+                        android:id="@+id/metil"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#faf1f1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Метилоранж"/>
+
+                    <TextView
+                        android:id="@+id/metil1"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#f94848"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Красный"/>
+
+                    <TextView
+                        android:id="@+id/metil2"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#f9924a"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Оранжевый"/>
+
+                    <TextView
+                        android:id="@+id/metil3"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#fcde59"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Жёлтый"/>
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/fenol"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#faf1f1"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Фенолфталеин"/>
+
+                    <TextView
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#ffffff"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#ffffff"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:id="@+id/fenol1"
+                        android:layout_marginEnd="0.5dp"
+                        android:background="#fa66e6"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:text="Малиновый"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>

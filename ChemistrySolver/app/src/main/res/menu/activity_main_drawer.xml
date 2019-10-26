@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_flask"
+            android:title="Главная" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Помощь" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_information"
+            android:title="Информация" />
+        <item
+            android:id="@+id/nav_develop"
+            android:icon="@drawable/ic_paw"
+            android:title="Разработчики" />
+    </group>
+
+</menu>

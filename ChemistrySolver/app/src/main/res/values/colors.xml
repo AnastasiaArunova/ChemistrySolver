@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A064FF</color>
+    <color name="colorPrimaryDark">#904aff</color>
+    <color name="colorAccent">#efefef</color>
+
+    <color name="colorPrimaryTables">#3b3b3b</color>
+    <color name="colorPrimaryDarkTables">#2d2d2d</color>
+
+    <color name="colorPrimarySolver">#5FB1FF</color>
+    <color name="colorPrimaryDarkSolver">#43a3ec</color>
+</resources>

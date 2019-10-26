@@ -1,0 +1,3610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001C1B">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/anions"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationH"
+                    android:text="H\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationNH4"
+                    android:text="NH\u2084\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationLi"
+                    android:text="Li\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationRb"
+                    android:text="Rb\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationK"
+                    android:text="K\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationBa"
+                    android:text="Ba\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationSr"
+                    android:text="Sr\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationCa"
+                    android:text="Ca\u00B2\u207A"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:background="@drawable/white"
+                    android:id="@+id/kationNa"
+                    android:text="Na\u207A"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationMg"
+                    android:text="Mg\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationBe"
+                    android:text="Be\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationAl"
+                    android:text="Al\u00B3\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationMn"
+                    android:text="Mn\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationZn"
+                    android:text="Zn\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationCr1"
+                    android:text="Cr\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationCr2"
+                    android:text="Cr\u00B3\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationFe1"
+                    android:text="Fe\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationFe2"
+                    android:text="Fe\u00B3\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationCd"
+                    android:text="Cd\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationCo1"
+                    android:text="Co\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationCo2"
+                    android:text="Co\u00B3\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationNi"
+                    android:text="Ni\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationSn"
+                    android:text="Sn\u00B2\u207A"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationPb"
+                    android:text="Pb\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationCu"
+                    android:text="Cu\u00B2\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationAg"
+                    android:text="Ag\u207A"/>
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/kationHg"
+                    android:text="Hg\u00B2\u207A"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionOH"
+                    android:text="OH\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value1"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value2"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value3"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value4"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value5"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value6"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value7"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value8"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value9"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value10"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value11"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value12"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value13"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value14"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value15"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value16"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value17"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value18"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value19"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value20"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value21"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value22"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value23"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value24"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value25"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value26"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value27"
+                    android:text="В"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionF"
+                    android:text="F\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value28"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value29"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value30"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value31"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value32"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value33"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value34"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value35"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value36"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value37"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value38"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value39"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value40"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value41"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value42"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value43"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value44"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value45"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value46"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value47"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value48"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value49"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value50"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value51"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value52"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value53"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value54"
+                    android:text="В"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionCl"
+                    android:text="Cl\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value55"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value56"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value57"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value58"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value59"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value60"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value61"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value62"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value63"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value64"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value65"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value66"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value67"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value68"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value69"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value70"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value71"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value72"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value73"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value74"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value75"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value76"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value77"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value78"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value79"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value80"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value81"
+                    android:text="Р"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionBr"
+                    android:text="Br\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value82"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value83"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value84"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value85"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value86"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value87"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value88"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value89"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value90"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value91"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value92"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value93"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value94"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value95"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value96"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value97"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value98"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value99"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value100"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value101"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value102"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value103"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value104"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value105"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value106"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value107"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value108"
+                    android:text="М"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionI"
+                    android:text="I\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value109"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value110"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value111"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value112"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value113"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value114"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value115"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value116"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value117"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value118"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value119"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value120"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value121"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value122"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value123"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value124"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value125"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value126"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value127"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value128"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value129"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value130"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value131"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value132"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value133"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value134"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value135"
+                    android:text="Н"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionS"
+                    android:text="S\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value136"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value137"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value138"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value139"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value140"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value141"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value142"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value143"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value144"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value145"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value146"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value147"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value148"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value149"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value150"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value151"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value152"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value153"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value154"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value155"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value156"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value157"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value158"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value159"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value160"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value161"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value162"
+                    android:text="Н"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionSO4"
+                    android:text="SO\u2084\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value163"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value164"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value165"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value166"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value167"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value168"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value169"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value170"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value171"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value172"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value173"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value174"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value175"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value176"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value177"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value178"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value179"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value180"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value181"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value182"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value183"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value184"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value185"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value186"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value187"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value188"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value189"
+                    android:text="В"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionHSO"
+                    android:text="HSO\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value190"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value191"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value192"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value193"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value194"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value195"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value196"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value197"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value198"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value199"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value200"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value201"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value202"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value203"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value204"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value205"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value206"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value207"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value208"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value209"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value210"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value211"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value212"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value213"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value214"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value215"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value216"
+                    android:text=" ? "/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionSO3"
+                    android:text="SO\u2083\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value217"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value218"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value219"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value220"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value221"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value222"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value223"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value224"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value225"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value226"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value227"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value228"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value229"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value230"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value231"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value232"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value233"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value234"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value235"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value236"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value237"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value238"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value239"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value240"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value241"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value242"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value243"
+                    android:text="Н"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionClO4"
+                    android:text="ClO\u2084\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value244"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value245"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value246"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value247"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value248"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value249"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value250"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value251"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value252"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value253"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value254"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value255"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value256"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value257"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value258"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value259"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value260"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value261"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value262"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value263"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value264"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value265"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value266"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value267"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value268"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value269"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value270"
+                    android:text="Р"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionClO3"
+                    android:text="ClO\u2083\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value271"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value272"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value273"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value274"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value275"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value276"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value277"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value278"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value279"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value280"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value281"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value282"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value283"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value284"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value285"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value286"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value287"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value288"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value289"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value290"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value291"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value292"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value293"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value294"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value295"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value296"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value297"
+                    android:text="Р"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionNO3"
+                    android:text="NO\u2083\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value298"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value299"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value300"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value301"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value302"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value303"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value304"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value305"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value306"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value307"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value308"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value309"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value310"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value311"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value312"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value313"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value314"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value315"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value316"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value317"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value318"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value319"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value320"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value321"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value322"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value323"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value324"
+                    android:text="В"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionNO2"
+                    android:text="NO\u2082\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value325"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value326"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value327"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value328"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value329"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value330"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value331"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value332"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value333"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value334"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value335"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value336"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value337"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value338"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value339"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value340"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value341"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value342"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value343"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value344"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value345"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value346"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value347"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value348"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value349"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value350"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value351"
+                    android:text="В"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionPO4"
+                    android:text="PO\u2084\u00B3\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value352"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value353"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value354"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value355"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value356"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value357"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value358"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value359"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value360"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value361"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value362"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value363"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value364"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value365"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value366"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value367"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value368"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value369"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value370"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value371"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value372"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value373"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value374"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value375"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value376"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value377"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value378"
+                    android:text="Н"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionHPO4"
+                    android:text="HPO\u2084\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value379"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value380"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value381"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value382"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value383"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value384"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value385"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value386"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value387"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value388"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value389"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value390"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value391"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value392"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value393"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value394"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value395"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value396"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value397"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value398"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value399"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value400"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value401"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value402"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value403"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value404"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value405"
+                    android:text=" "/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionH2PO4"
+                    android:text="H\u2082PO\u2084\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value406"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value407"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value408"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value409"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value410"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value411"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value412"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value413"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value414"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value415"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value416"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value417"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value418"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value419"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value420"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value421"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value422"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value423"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value424"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value425"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value426"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value427"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value428"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value429"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value430"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value431"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value432"
+                    android:text=" "/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionCH3COO"
+                    android:text=" CH\u2083COO\u00B2\u207B "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value433"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value434"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value435"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value436"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value437"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value438"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value439"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value440"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value441"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value442"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value443"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value444"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value445"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value446"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value447"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value448"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value449"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value450"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value451"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value452"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value453"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value454"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value455"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value456"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value457"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value458"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value459"
+                    android:text="Р"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionCr2O7"
+                    android:text="Cr\u2082O\u2087\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value460"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value461"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value462"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value463"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value464"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value465"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value466"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value467"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value468"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value469"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value470"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value471"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value472"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value473"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value474"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value475"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value476"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value477"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value478"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value479"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value480"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value481"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value482"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value483"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value484"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value485"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value486"
+                    android:text="Н"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionCrO4"
+                    android:text="CrO\u2084\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value487"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value488"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value489"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value490"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value491"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value492"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value493"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value494"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value495"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value496"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value497"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value498"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value499"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value500"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value501"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value502"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value503"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value504"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value505"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value506"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value507"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value508"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value509"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value510"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value511"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value512"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value513"
+                    android:text="Н"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionMnO4"
+                    android:text="MnO\u2084\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value514"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value515"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value516"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value517"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value518"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value519"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value520"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value521"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value522"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value523"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value524"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value525"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value526"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value527"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value528"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value529"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value530"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value531"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value532"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value533"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value534"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value535"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value536"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value537"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value538"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value539"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value540"
+                    android:text=" ? "/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionCO3"
+                    android:text="CO\u2083\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value541"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value542"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value543"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value544"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value545"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value546"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value547"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value548"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value549"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value550"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value551"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value552"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value553"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value554"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/green"
+                    android:id="@+id/value555"
+                    android:text="М"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value556"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value557"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value558"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value559"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value560"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/violet"
+                    android:id="@+id/value561"
+                    android:text="В"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value562"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value563"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value564"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value565"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value566"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value567"
+                    android:text="Н"/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionHCO3"
+                    android:text="HCO\u2083\u207B"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value568"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value569"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value570"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value571"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value572"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value573"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value574"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value575"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value576"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value577"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value578"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value579"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value580"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value581"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value582"
+                    android:text=" "/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value583"
+                    android:gravity="center"
+                    android:text=" "
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TextView>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value584"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value585"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value586"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value587"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value588"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value589"
+                    android:text=" "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value590"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value591"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value592"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value593"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value594"
+                    android:text=" ? "/>
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <TextView
+                    android:background="@drawable/white"
+                    android:id="@+id/anionSiO3"
+                    android:text="SiO\u2083\u00B2\u207B"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value595"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value596"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value597"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value598"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value599"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value600"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value601"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value602"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/blue"
+                    android:id="@+id/value603"
+                    android:text="Р"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value604"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value605"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value606"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value607"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value608"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value609"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value610"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value611"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value612"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value613"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value614"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value615"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value616"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value617"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value618"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value619"
+                    android:text=" ? "/>
+
+                <TextView
+                    android:background="@drawable/orange"
+                    android:id="@+id/value620"
+                    android:text="Н"/>
+
+                <TextView
+                    android:background="@drawable/whitewhite"
+                    android:id="@+id/value621"
+                    android:text=" "/>
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tvinfo1"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/blue"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:text="Р"></TextView>
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:textSize="10dp"
+                        android:textColor="#fff"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:text=" Растворяется   "></TextView>
+
+                    <TextView
+                        android:id="@+id/tvinfo2"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/orange"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:text="Н"></TextView>
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:textSize="10dp"
+                        android:textColor="#fff"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:text=" Не растворяется   "></TextView>
+
+                    <TextView
+                        android:id="@+id/tvinfo3"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/whitewhite"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:text=" "></TextView>
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:textSize="10dp"
+                        android:textColor="#fff"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:text=" Нет данных о существовании элемента   "></TextView>
+
+                </TableRow>
+
+                <TableRow android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/tvinfo4"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/green"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:text="М"></TextView>
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:textSize="10dp"
+                        android:textColor="#fff"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:text=" Мало растворяется   "></TextView>
+
+                    <TextView
+                        android:id="@+id/tvinfo5"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/violet"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="В"></TextView>
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:textSize="10dp"
+                        android:textColor="#fff"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:text=" Разлагается в воде   "></TextView>
+
+                    <TextView
+                        android:id="@+id/tvinfo6"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/whitewhite"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:text=" ? "></TextView>
+
+                    <TextView
+                        android:textStyle="italic"
+                        android:textSize="10dp"
+                        android:textColor="#fff"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:text=" Нет данных о растворимости   "></TextView>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>
