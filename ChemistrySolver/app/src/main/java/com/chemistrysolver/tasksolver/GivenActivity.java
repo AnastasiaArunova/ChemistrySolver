@@ -339,7 +339,7 @@ public class GivenActivity extends AppCompatActivity implements CheckItemDialog.
                 return num / 10;
             }
         }
-        if (n == 5 || n == 6){
+        if (n == 5 || n == 6 || n == 13 || n == 12){
             if (unit == 1){
                 givenText += " = ";
                 givenText += num / 100;
