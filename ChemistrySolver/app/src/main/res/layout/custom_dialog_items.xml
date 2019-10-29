@@ -111,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
                 android:textColor="#000"
-                android:text="Практически полученная масса масса"/>
+                android:text="Практически полученная масса"/>
 
             <CheckBox
                 android:id="@+id/des10"
