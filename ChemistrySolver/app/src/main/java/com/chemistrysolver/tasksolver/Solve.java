@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 import com.chemistrysolver.tableelement.TableElementActivity;
 
+// класс, решающий задачи
 public class Solve {
 
     // цифры для нахождения их в соединениях; переменная, обозначающая газ, по которому находится плотность газа по другому
@@ -98,9 +99,12 @@ public class Solve {
             }
             coefficients = new Integer[elements.size()];
             findCoefficients();
-            solveReaction();
             answer += "Ответ: ";
-            for (int i = 0; i < answers.length; i++) answer += answers[i] + "; ";
+            solveReaction();
+            for (int i = 0; i < answers.length; i++){
+                if (answers[i] > 0.0 && answers[i] != null)
+                answer += answers[i] + "; ";
+            }
             onSolveEnd.getAnswer(answer);
             onSolveEnd.getSolutions(solutions);
         } else {
@@ -159,7 +163,7 @@ public class Solve {
                 j++;
             }
             for (int i = 0; i < answers.length; i++) {
-                if (answers[i] > 0.0)
+                if (answers[i] > 0.0 && answers[i] != null)
                 answer += answers[i] + "; ";
             }
             onSolveEnd.getAnswer(answer);
@@ -262,7 +266,7 @@ public class Solve {
                 }
             }
         int j = 0;
-        if (!key1.equals(""))
+        if (!key1.equals("")) {
             for (String key : find.keySet()) {
                 if (given.containsKey(key)) {
                     given.get(key).put(1, getAmountInReaction(key, key1));
@@ -275,39 +279,63 @@ public class Solve {
                     if (find.get(key).get(i) == 0) answers[j] = round(getMolarMass(true, key, -1));
                     else if (find.get(key).get(i) == 1) answers[j] = given.get(key).get(1);
                     else if (find.get(key).get(i) == 2) answers[j] = round(getMassOfAgent(key, -1));
-                    else if (find.get(key).get(i) == 3) answers[j] = round(getMassOfSolution(key, -1));
-                    else if (find.get(key).get(i) == 5) answers[j] = round(getMassFraction(key, -1));
-                    else if (find.get(key).get(i) == 6) answers[j] = round(getMassFractionProduct(key, -1));
+                    else if (find.get(key).get(i) == 3)
+                        answers[j] = round(getMassOfSolution(key, -1));
+                    else if (find.get(key).get(i) == 5)
+                        answers[j] = round(getMassFraction(key, -1));
+                    else if (find.get(key).get(i) == 6)
+                        answers[j] = round(getMassFractionProduct(key, -1));
                     else if (find.get(key).get(i) == 7) answers[j] = round(getMassTheor(key, -1));
                     else if (find.get(key).get(i) == 8) answers[j] = round(getMassPrak(key, -1));
                     else if (find.get(key).get(i) == 9) answers[j] = round(getVolume(key, -1));
-                    else if (find.get(key).get(i) == 11) answers[j] = round(getVolumeFraction(key, - 1));
-                    else if (find.get(key).get(i) == 12) answers[j] = round(getVolumeFraction(key, -1));
-                    else if (find.get(key).get(i) == 13) answers[j] = round(getVolumeFractionProduct(key, -1));
+                    else if (find.get(key).get(i) == 11)
+                        answers[j] = round(getVolumeFraction(key, -1));
+                    else if (find.get(key).get(i) == 12)
+                        answers[j] = round(getVolumeFraction(key, -1));
+                    else if (find.get(key).get(i) == 13)
+                        answers[j] = round(getVolumeFractionProduct(key, -1));
                     else if (find.get(key).get(i) == 14) answers[j] = round(getVolumePrak(key, -1));
-                    else if (find.get(key).get(i) == 15) answers[j] = round(getVolumeTheor(key, -1));
-                    else if (find.get(key).get(i) == 16) answers[j] = round(getMolarMass(true, key, 16));
+                    else if (find.get(key).get(i) == 15)
+                        answers[j] = round(getVolumeTheor(key, -1));
+                    else if (find.get(key).get(i) == 16)
+                        answers[j] = round(getMolarMass(true, key, 16));
                     else if (find.get(key).get(i) == 17) answers[j] = round(getMassOfAtom(key, -1));
-                    else if (find.get(key).get(i) == 18) answers[j] = round(getCountOfStructure(key, -1));
+                    else if (find.get(key).get(i) == 18)
+                        answers[j] = round(getCountOfStructure(key, -1));
                     else if (find.get(key).get(i) == 19) {
                         answers[j] = -1.0;
                         getMoleFraction(key);
-                    }
-                    else if (find.get(key).get(i) == 20) answers[j] = getMolarConcentration(key, -1);
+                    } else if (find.get(key).get(i) == 20)
+                        answers[j] = getMolarConcentration(key, -1);
                     else if (find.get(key).get(i) == 21) answers[j] = getMassOfSolvent(key, -1);
-                    else if (find.get(key).get(i) == 22) answers[j] = getMolalConcentration(key, -1);
+                    else if (find.get(key).get(i) == 22)
+                        answers[j] = getMolalConcentration(key, -1);
                     else if (find.get(key).get(i) == 23) answers[j] = getTiter(key, -1);
                     else if (find.get(key).get(i) == 24) answers[j] = round(getPressure(key, -1));
-                    else if (find.get(key).get(i) == 25) answers[j] = round(getTemperature(key, -1));
+                    else if (find.get(key).get(i) == 25)
+                        answers[j] = round(getTemperature(key, -1));
                     else if (find.get(key).get(i) == 26) answers[j] = round(getDensity(key, -1));
                     else if (find.get(key).get(i) == 27) answers[j] = getDensitySolution(key, -1);
                     else if (find.get(key).get(i) == 29) {
                         if (given.containsKey(key) && given.get(key).containsKey(1))
-                        answers[j] = given.get(key).get(1);
+                            answers[j] = given.get(key).get(1);
                     }
                 }
                 j++;
             }
+        } else {
+            for (String key : find.keySet()) {
+                for (int i = 0; i < find.get(key).size(); i++) {
+                    if (find.get(key).get(i) == 0) answers[j] = round(getMolarMass(true, key, -1));
+                    else if (find.get(key).get(i) == 16)
+                        answers[j] = round(getMolarMass(true, key, 16));
+                    else if (find.get(key).get(i) == 19) {
+                        answers[j] = -1.0;
+                        getMoleFraction(key);
+                    }
+                }
+            }
+        }
     }
 
     // округление ответа
