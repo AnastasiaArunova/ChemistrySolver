@@ -289,7 +289,7 @@ public class Solve {
                     else if (find.get(key).get(i) == 8) answers[j] = round(getMassPrak(key, -1));
                     else if (find.get(key).get(i) == 9) answers[j] = round(getVolume(key, -1));
                     else if (find.get(key).get(i) == 11)
-                        answers[j] = round(getVolumeFraction(key, -1));
+                        answers[j] = round(getVolumeOfSolution(key, -1));
                     else if (find.get(key).get(i) == 12)
                         answers[j] = round(getVolumeFraction(key, -1));
                     else if (find.get(key).get(i) == 13)
